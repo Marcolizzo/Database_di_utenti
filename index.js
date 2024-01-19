@@ -1,5 +1,5 @@
-import { getUsers } from "./fetch.js";
-import { displayUsers } from "./script.js"
+import { getUsers } from "./module/api.js"
+import { displayUsers } from "./module/helper.js"
 
 let users = []
 
