@@ -1,4 +1,4 @@
-export {getUsers}
+export { getUsers }
 
 const getUsers = async () => {
     try {

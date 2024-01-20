@@ -34,9 +34,15 @@
 
     <div class="container">
       <div class="d-flex my-5 gap-3">
-        <input id="input" type="text" placeholder="Insert text..." />
+        <input
+          id="input"
+          type="text"
+          placeholder="Select a filter ->"
+          disabled
+        />
         <div class="dropdown">
           <button
+            id="btnDropdownToggle"
             class="btn btn-success dropdown-toggle"
             href="#"
             role="button"
@@ -44,7 +50,7 @@
             aria-expanded="false"
           >
             Choose a filter
-        </button>
+          </button>
 
           <ul class="dropdown-menu">
             <li><button class="dropdown-item btnDropdown">Name</button></li>
